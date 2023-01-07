@@ -59,7 +59,6 @@ Resources:
           sudo systemctl restart apache2.service
       # ToDo: AMI ID of Ubuntu Linux machine. Too get one, try creating a VM from the web console.
       ImageId: ami-08fdec01f5df9998f
-      KeyName: stv_udagram
       SecurityGroups:
         - Ref: WebServerSecGroup
       InstanceType: t3.medium
